@@ -1,0 +1,69 @@
+img {
+    height: 200px;
+    margin-left: 705px;
+    margin-bottom: -11px;
+    border: 10px solid pink;
+}
+
+.steph    {
+    height: 200px;
+    margin-left: -653px;
+    margin-bottom: -6px;
+    border: 10px solid pink;
+}
+
+.family {
+    margin-left: 269px;
+}
+
+
+body {
+        background-color: aqua;
+    }
+
+h1 {
+    margin-left: 480px;
+}
+
+.curry {
+    margin-left: 285px;
+}
+
+.location {
+    margin-left: 275px;
+}
+
+.country {
+    margin-left: 642px;
+}
+
+.NavColor {
+    background-color: burlywood;
+}
+
+.sideBar {
+    z-index: 3;
+    width: 250px;
+    top: 43px;
+    bottom: 0;
+    height: inherit;
+    background-color: chartreuse;
+    position: fixed!important;
+    overflow: auto;
+}
+
+button {
+    margin-top: 35px;
+    border-radius: 19%;
+    background-color: yellow;
+}
+
+.Shop {
+    font-size: 60px;
+}
+
+.color {
+    background-color: cyan;
+}
+
+

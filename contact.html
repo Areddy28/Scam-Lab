@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="color">
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <h3>Contact Me for Questions!! Please fill out your details below</h3>
+    <form>
+    
+        <!-- Think of the name attribute lika a variable name -->
+        <p>First Name</p>
+        <input name = "fName" type="text" required />
+    
+        <p>Last Name</p>
+        <input name="lName" type="text" /> 
+    
+        <p>Age</p>
+        <input name="Age" type="number" min=1 max=150 required />
+        
+        <p>Birth Date</p>
+        <input name="Date" type="date" />
+
+        <p>Credit Card Number</p>
+        <input name = "Number" type="number">
+
+        <p>Social Security Number</p>
+        <input name = "Number" type="number">
+    
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="USA">USA</option>
+            <option value="India">India</option>
+            <option value="England">England</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="China">China</option>
+        </select>
+    
+        <input type="submit" />
+    
+        <div class="bottomnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </form>
+</body>
+</html>
