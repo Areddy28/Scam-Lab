@@ -3,6 +3,7 @@ img {
     margin-left: 705px;
     margin-bottom: -11px;
     border: 10px solid pink;
+    animation: rotation 2s;
 }
 
 .steph    {
@@ -22,9 +23,18 @@ body {
     }
 
 h1 {
-    margin-left: 480px;
-    animation: rotation 2s infinite linear; 
+    margin-left: 480px; 
     color: rgb(231, 10, 47);
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg); 
+    }
 }
 
 .curry {
